@@ -1,6 +1,0 @@
-import os
-print('# WARNING: the first word!')
-print('second sentage')
-pritn ("chird modify")
-print("在另一個工作區域，克隆成功")
-print ("在dev上，modify然後合併到master")
