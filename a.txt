@@ -7,7 +7,4 @@
 6.學習 創建和合拼分支mater分支issue分支修復bug
 7.分支創建的修改 dev修改提交
 8.master分支，看看如何解決衝突
-9.bug分支
-10.我在master 不知道衝突如何處理
-11.我在master上，修改a.txt
-12.我在master上，修改a.txt
+9.始終搞不懂，出了問題如何處理才好
