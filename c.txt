@@ -1,0 +1,6 @@
+目標明確
+1.學習github 單人不同區域工作，多人協同工作，熟悉分佈式工作模式。
+2.克隆一個倉庫到本地，如果已經有遠程倉庫，那麼就可以通過克隆，在本地建立一個一樣的倉庫，同時可以把遠程倉庫和本地聯繫起來。
+3.在github上面添加repository，只是相當於建立一個遠程目錄，此時遠程倉庫（目錄）還是空的，如果遠程倉庫是空的，就只有目錄repository，還沒有origin，就可以遠程添加一個origin和本地倉庫進行關聯（ git remote add origin git@github.com:michaelliao/learngit.git這個過程也可以叫做添加遠程庫 ）。如果遠程倉庫不是空的，創建repository時附加有內容或者以前有建立過origin的是不用再添加origin了，這時候其他使用者要克隆這個遠程庫到本地，就可參加分佈式開發。
+4.兩個人不是修改同一個地方，修改同一個地方。都一樣，衝突，要pull，然後重新提交。
+需要記憶的命令：簡單縮寫日誌命令，git log --pretty=oneline --abbrev-commit
