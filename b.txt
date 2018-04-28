@@ -3,3 +3,7 @@
 3.我再次在dev修改b.txt文件
 4.wbf002修改
 5.再次在wbf002中修改看看情況怎樣。
+6.我是mygit dev ，我知道git fetsh命令的用法了，從其他存儲庫下載對象和引用，git pull 用於從遠處庫更新內容。
+7.如果僅僅需要指定本地分支和遠程分支的鏈接，git branch --set-upstream dev origin/dev  
+8.指定鏈接 ，然後pull 是一般常用方法。
+
