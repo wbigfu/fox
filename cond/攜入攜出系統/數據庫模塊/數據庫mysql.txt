@@ -1,0 +1,29 @@
+https://www.yiibai.com/mysql/mysql_quick_start.html
+
+mysql 學習網址 
+
+mysql的常用知識
+
+1.安裝myslq 
+
+2.啟動 關閉mysql 修改登錄密碼 
+
+啟動amysql服務  1.在系統服務中啟動  2.在cmd中啟動 net start amysql (發生存貯被拒錯誤，嘗試用系統管理員啟動cmd)
+修改登錄密碼 mysqladmin -u root password "123456"
+登錄mysql服務器  mysql -u root -p 
+登出？ exit
+關閉amysql服務 net stop mysql (發生存貯被拒錯誤，嘗試用系統管理員啟動cmd)
+
+3.創建數據庫用戶
+   GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP
+    ON mydb01.*
+    TO 'wbf'@'localhost'
+    IDENTIFIED BY '123456';
+
+4.創建數據庫
+
+5.表和其他操作
+
+6.事物，存儲過程等
+
+7.

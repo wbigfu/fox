@@ -1,0 +1,108 @@
+1. 創建table USer 用戶表
+
+CREATE TABLE IF NOT EXISTS `user`(
+  `user_id` INT UNSIGNED AUTO_INCREMENT,
+  `employeeID`  UNSIGNED ,
+  `name` VARCHAR(100) NOT NULL,
+  `department` VARCHAR(40) NOT NULL,
+  `siteArea` VARCHAR(40) NOT NULL,
+  `email` VARCHAR(40) NOT NULL,
+  `contact` VARCHAR(40) NOT NULL,
+   PRIMARY KEY ( `user_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+2.創建 visitor 訪客表
+
+CREATE TABLE IF NOT EXISTS `visitor`(
+  `visitorId` INT UNSIGNED AUTO_INCREMENT,
+  `corpration`  VARCHAR(30) NOT NULL,
+  `name` VARCHAR(20) NOT NULL,
+  `contact` VARCHAR(20) NOT NULL,
+  `certificateType` VARCHAR(12) NOT NULL,
+  `certificateNumber` VARCHAR(15) NOT NULL,
+   PRIMARY KEY ( `visitorId` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+3.創建電腦信息表
+
+CREATE TABLE IF NOT EXISTS `com_info`(
+  `comId` INT UNSIGNED AUTO_INCREMENT,
+  `assetTypes`  VARCHAR(15) NOT NULL,
+  `prand` VARCHAR(20) NOT NULL,
+  `serialNumber` VARCHAR(20) NOT NULL,
+  `color` VARCHAR(12) NOT NULL,
+  `netCar` VARCHAR(15) NOT NULL,
+   PRIMARY KEY ( `comId` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+4. 創建control 管制表
+
+CREATE TABLE IF NOT EXISTS `controlInfo`(
+  `controlId` INT UNSIGNED AUTO_INCREMENT,
+  `controlTypes`  VARCHAR(15) NOT NULL,
+  `time` VARCHAR(20) NOT NULL,
+  `inData` VARCHAR(20) NOT NULL,
+  `outData` VARCHAR(12) NOT NULL,
+  `reson` VARCHAR(15) NOT NULL,
+  `inPlace` VARCHAR(15) NOT NULL,
+  `placeObj` VARCHAR(15) NOT NULL,
+   PRIMARY KEY ( `controlId` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+向數據庫中添加測試數據
+ INSERT INTO user
+     (`user_id`,
+  `employeeID`,
+  `name`,
+  `department`, 
+  `siteArea` ,
+  `email` ,
+  `contact` )
+     VALUES
+     (1,6000000, '覃柳嬌','HR','南寧沙井','nn-hr-liujiao@mail.com','18001088818');
+
+ 
+
+
+INSERT INTO visitor
+     (`visitorId`,
+  `corpration`,
+  `name`,
+  `contact`, 
+  `certificateType` ,
+  `certificateNumber` 
+   )
+     VALUES
+     (001,'南寧政府', '楊順美','1887758258','身份證','45212319931231');
+
+
+INSERT INTO com_info
+     (
+  `comId`,
+  `assetTypes`,
+  `prand`, 
+  `serialNumber`,
+  `color` ,
+  `netCar` )
+     VALUES
+     (001, '固定資產','聯想牌','sn/605c23dr','紅色','有');
+
+INSERT INTO controlInfo
+     (
+  `controlId`,
+ `controlTypes`,
+  `time`,
+  `inData`, 
+  `outData`,
+  `reson`,
+  `inPlace`, 
+  `placeObj`
+      )
+  VALUES
+     (00001,'攜入攜出', '2018-12-03','09:30 am','05:30 pm','工程','西大門','b22');

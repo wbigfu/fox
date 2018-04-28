@@ -1,0 +1,38 @@
+  1.Django+mysql小小實例項目：http://blog.csdn.net/yf999573/article/details/53081196     
+  2.Python和Django安裝和使用
+http://www.runoob.com/django/django-install.html
+
+3.Windows7下的Django?境、?目及工程搭建（包括anaconda安?方法）（一）
+https://blog.csdn.net/qq_28304687/article/details/53507223?locationNum=5&fps=1
+
+4.Anaconda+python+django web???境?量配置
+https://blog.csdn.net/huangqiuyangaaa/article/details/78652054
+
+ 5.http://www.runoob.com/django/django-template.html
+
+6.自強學堂https://code.ziqiangxuetang.com/django/django-tutorial.html
+
+7.Python【第十八篇】Web框架之Django https://www.cnblogs.com/RUReady/p/6524951.html
+
+8.極客學院
+https://code.ziqiangxuetang.com/django/django-views-urls.html
+
+9.簡易博客http://www.cnblogs.com/cacique/archive/2012/10/01/2709668.html
+
+10.django2.0 新路由語法（視圖和url新語法）
+https://blog.csdn.net/weikanghuan/article/details/78976099
+
+11.django模板操作
+http://www.cnblogs.com/Python666/p/7192454.html
+
+12.數據庫訪問方式之一
+http://www.runoob.com/python3/python3-mysql.html
+
+13.數據庫模板  訪問方式二http://www.runoob.com/django/django-template.html
+
+14.視圖和模板https://www.cnblogs.com/caoshiqing/p/5843094.html
+https://blog.csdn.net/fgf00/article/details/53649820
+https://blog.csdn.net/u013055678/article/details/51793579
+
+15.數據庫
+http://www.runoob.com/python3/python3-mysql.html

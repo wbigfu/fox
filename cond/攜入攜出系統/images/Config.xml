@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConnectionSettings>
+  <ElistConnSetting>
+    <ConnName>Elist</ConnName>
+    <ConnPath>E:\Web\BHCOM1_New\Bin\Config.dll</ConnPath>
+    <WSPath>http://10.120.251.10/WebService/Personal/ElistQuery.asmx</WSPath>
+  </ElistConnSetting>
+  <WFConnSetting>
+    <ConnName>WFConn</ConnName>
+    <ConnPath>E:\Web\BHCOM1_New\Bin\Config.dll</ConnPath>
+    <DatabaseType>SqlServer</DatabaseType>
+  </WFConnSetting>
+  <PDMConnSetting>
+    <ConnName>PDMConn</ConnName>
+    <ConnPath>E:\Web\BHCOM1_New\Bin\Config.dll</ConnPath>
+  </PDMConnSetting>
+  <TempDBConnSetting>
+    <ConnName>TempDBConn</ConnName>
+    <ConnPath>E:\Web\BHCOM1_New\Bin\WF.mdb</ConnPath>
+  </TempDBConnSetting>
+</ConnectionSettings>
